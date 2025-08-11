@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+    <title>Mario Jump</title>
+</head>
+
+<body>
+    <div class="game-board">
+        <img src="./images/mario.gif" class="mario">
+
+        <img src="./images/pipe.png" class="pipe">
+
+         <img src="./images/clouds.png" class="clouds">
+         <div class="hud">
+  <span>Score: <strong id="score">0</strong></span>
+</div>
+    </div>
+   <div id="game-over-screen" class="hidden">
+    <h1 class="title title-danger">GAME OVER</h1>
+    <p id="final-score" class="subtitle"></p>
+    <button id="restart-btn" class="btn btn-secondary">Reiniciar</button>
+</div>
+
+</body>
+
+</html>
